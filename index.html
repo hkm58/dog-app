@@ -72,9 +72,11 @@
       background: white;
     }
     .grid {
+      justify-content: center;
+
       margin: 15px 0;
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
       grid-gap: 20px;
     }
 
@@ -103,6 +105,11 @@
 
     .dark a {
       color: plum;
+    }
+    .single {
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   </style>
   <body>
@@ -140,12 +147,12 @@
         to help them develop this at home ;It can tires them out more sometimes
         that a walk!
       </p>
-
-      <img
-        src="https://www.caninecountryclubaz.com/wp-content/uploads/2019/03/shutterstock_140724097-min-768x512.jpg"
-        alt="care"
-      />
-
+      <div class="single">
+        <img
+          src="https://www.caninecountryclubaz.com/wp-content/uploads/2019/03/shutterstock_140724097-min-768x512.jpg"
+          alt="care"
+        />
+      </div>
       <p>
         Looking for
         <a href="https://walkiees.co.uk/" target="_blank">walks</a> can be
